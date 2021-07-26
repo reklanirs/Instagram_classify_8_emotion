@@ -27,7 +27,7 @@ As shown below, the data is not distributed among 8 emotion categories equally:
 
 Showing in the bar chart:
 
-![image-20210715222925525](README.assets/image-20210715222925525.png)
+![8_emotion_data_distribution](README.assets/8_emotion_data_distribution.png)
 
 
 We can see that the "**anticipation**" is the minor set (1526) and "**joy**" is the major set (14498).
@@ -50,7 +50,7 @@ The oversampled set is split into two sets: 80% of the data is for training and 
 
 During the training, the batch size is set to 32 and learning rate 2e-5. The optimizer algorithm we chose is adam. It took 20 epoches for the model to convergence.
 
-![download](README.assets/download.png)
+![training_curve](README.assets/training_curve.png)
 
 After training, we got the following loss and accuracy on the test set:
 
@@ -97,7 +97,7 @@ After looking through the labelled text, we found the result are not always corr
 
 Statistics shows that "Joy" shows the most in the result while the label "anticipation" was not show at all among 200 review labels.
 
-![Screen Shot 2021-07-16 at 9.44.45 PM](README.assets/Screen Shot 2021-07-16 at 9.44.45 PM.png)
+![result_pie_chart](README.assets/result_pie_chart.png)
 
 
 
